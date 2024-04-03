@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<?php include'connect.php'; ?>
+<html>
+    <head>
+        <title>payment form</title>
+        <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 align="center">Donate Details</h1>
+    <form action="Donation3.php" method="post">
+    <p>Name</p>
+    <input class="box1" type="text" name="name" required>
+    <p>CVV</p>
+    <input class="box1" type="text" name="cvv" required>
+    <p>CardNumber</p>
+    <input class="box1" type="text" name="cnumber" required>
+    <p>EnterAmount</p>
+    <input class="box1" type="text" name="samount" required>
+    <p>Card Expiry Details</p><hr>
+    <p>EnterMonth</p>
+    <input class="box1" type="month" name="months" required>
+    <p>EnterYear</p>
+    <input class="box1" type="year" name="year" required>
+    <input class="btn" type="submit" value="Confirm">
+    <br>
+</form>
+</body>
+</html>

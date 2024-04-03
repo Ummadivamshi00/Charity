@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-weight:bold ;
+}
+
+
+form{
+    height:750px;
+    border: 1px solid grey;
+    left:40%;
+    top:15%;
+    position: absolute;
+    width:400px;
+    margin:30px auto 0 auto;
+    padding:30px;
+    display: block;
+
+}
+
+.box1 {
+width:100%;
+padding:5px;
+border-color:;
+box-sizing: border-box;
+margin:10px 0 15px 0;
+}
+.btn{
+    width:100%;
+    padding: 10px;
+    border:none;
+    border-radius:15px;
+    background-color: green;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

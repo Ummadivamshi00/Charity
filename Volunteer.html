@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<?php include'connect.php'; ?>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Volunteer</title>
+        <link rel="stylesheet" href="login.css">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <div class="container">
+        <div class="title">  Become a Volunteer</div>
+        <form action="volunteer.php" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your Full Name" name="fname" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone number</span>
+                    <input type="text" placeholder="Enter your Phone Number" name="pnumber" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Date of birth</span>
+                    <input type="date" placeholder="Enter your D.O.B" name="dob" required>
+                </div>
+               
+            </div>
+        <div class="button">
+            <input type="submit" value="Register">
+        </div>
+        </form>
+        
+     </div>
+
+    
+</body>
+</html>

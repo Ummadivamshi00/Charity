@@ -1,0 +1,13 @@
+nav {
+    display:flex;
+}
+nav img {
+    width:100px;
+    margin:10px 0px;
+}
+nav ul li{
+    color:red;
+    display:inline-block;
+    margin: 10px 20px;
+
+}

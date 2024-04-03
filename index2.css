@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width:100%;
+    min-height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('Background2.jpg');
+    background-position: center;
+    background-size:cover;
+}
+nav h1{
+    cursor:pointer;
+    color:white;
+    margin:20px 10px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:auto;
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+.content h1{
+    font-size: 35px;
+    color:white;
+    margin:4% 35%;
+}
+.first-img {
+    margin-left: 150px;
+    width:500px;
+}
+.second-img{
+    width:380px;
+    margin-left:100px;
+    position: absolute;
+}

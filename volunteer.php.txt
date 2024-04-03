@@ -1,0 +1,25 @@
+<?
+
+$Full Name = $__POST['Full Name'];
+$Phone number = $__POST['Phone number'];
+$Date of birth = $__POST['Date of birth'];
+
+$conn = new mysqli("localhost","root","","test");
+if(!conn)
+{
+    echo "database connection cannot be connected";
+}
+
+$qry = "INSERT INTO table2('Full Name','Phone number','date of birth')VALUES('$Full Name','$Phone number','$Date of birth')";
+$insert = mysqli_query($conn,$qry);
+
+if(!$insert)
+{
+    echo "details are not inserted in to database";
+}
+else
+{
+    echo "data inserted into table";
+}
+
+?>
